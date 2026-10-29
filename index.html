@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>RuangBelajar — Temukan Cara Belajarmu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand-line">
+        <a class="brand" href="#beranda" aria-label="RuangBelajar, beranda">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span>RuangBelajar</span>
+        </a>
+        <span class="brand-caption">TEMAN BELAJAR UNTUK MASA DEPANMU</span>
+      </div>
+
+      <nav class="navbar navbar-expand-md layout-navbar" aria-label="Menu utama">
+        <div class="container-fluid p-0">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Buka menu navigasi">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuUtama">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#beranda">Beranda</a></li>
+              <li class="nav-item"><a class="nav-link" href="#kelas">Kelas</a></li>
+              <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+            </ul>
+            <a class="btn btn-primary ms-md-auto mt-2 mt-md-0" href="#kelas">Mulai Belajar</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="beranda">
+      <section class="content-primary" aria-labelledby="hero-title">
+        <p class="eyebrow">Belajar jadi lebih menyenangkan</p>
+        <h1 id="hero-title">Temukan cara baru untuk <span>bertumbuh.</span></h1>
+        <p class="hero-copy">
+          Kembangkan potensimu lewat kelas online yang seru dan fleksibel.
+          Belajar kapan saja, dari mana saja, sesuai ritmemu.
+        </p>
+        <a class="btn btn-primary" href="#kelas">Jelajahi Kelas <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="content-grid" id="kelas" aria-label="Keunggulan RuangBelajar">
+        <article class="content-panel">
+          <span class="benefit-icon" aria-hidden="true">🎯</span>
+          <h2>Kelas terarah</h2>
+          <p>Materi bertahap untuk membantumu belajar lebih fokus.</p>
+        </article>
+        <article class="content-panel">
+          <span class="benefit-icon" aria-hidden="true">⏰</span>
+          <h2>Fleksibel kapan saja</h2>
+          <p>Atur jadwal belajar sendiri dan lanjutkan sesuai ritmemu.</p>
+        </article>
+        <article class="content-panel" id="tentang">
+          <span class="benefit-icon" aria-hidden="true">🌱</span>
+          <h2>Tumbuh bersama</h2>
+          <p>Bangun kebiasaan baru dan rayakan setiap progres kecilmu.</p>
+        </article>
+      </section>
+
+      <div class="layout-footer">
+        <span>Belajar sedikit demi sedikit, berkembang setiap hari.</span>
+        <a href="#beranda">Kembali ke atas ↑</a>
+      </div>
+    </main>
+  </div>
+
+  <footer class="course-footer">
+    <div class="container text-end">Pemrograman Web 1</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
